@@ -33,13 +33,13 @@ export default function GetCode(){
                 </div>
             </div>
             <div className="row" style={{marginTop:'50px'}}>
-                <div className="col col-12 col-md-4" style={{textAlign:'center'}}>
+                <div className="col col-12 col-md-4" style={{textAlign:'center', padding:'10px 0px'}}>
                     <button onClick={handleSourceCodeFile} className="submit-btn">Source code file</button>
                 </div>
-                <div className="col col-12 col-md-4" style={{textAlign:'center'}}>
+                <div className="col col-12 col-md-4" style={{textAlign:'center', padding:'10px 0px'}}>
                     <button onClick={handleOutputFile} className="submit-btn">Output file</button>
                 </div>
-                <div className="col col-12 col-md-4" style={{textAlign:'center'}}>
+                <div className="col col-12 col-md-4" style={{textAlign:'center', padding:'10px 0px'}}>
                     <button onClick={handleUrlFile} className="submit-btn">Reference URL file</button>
                 </div>
             </div>

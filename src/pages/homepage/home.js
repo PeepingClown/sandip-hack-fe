@@ -1,5 +1,6 @@
 import './home.css';
 import {useState} from 'react';
+import UploadBtn from './uploadBtn';
 
 export default function Home(){
     const [query, setQuery] = useState("");
@@ -18,10 +19,11 @@ export default function Home(){
             <div className="container-fluid">
                 <div className="row">
                     <div className="col col-12 col-md-6">
-                        <div style={{marginBottom:'20px'}}>
-                        <button className="upload-btn">
-                            <i style={{color:'#0253B3'}} class="fas fa-file-upload fa-2x"></i>
-                        </button>
+                        <div style={{marginBottom:'40px'}}>
+                        <input type="file" id="actual-btn" hidden/>
+                        
+                        <label for="actual-btn"><UploadBtn/></label>
+                        
                             
                         </div>
                         
